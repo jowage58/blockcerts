@@ -1,0 +1,12 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "http://blockcerts-rs.innovate.fresnostate.edu/static/2.0/main-revocation-list-testnet.json",
+  "type": "RevocationList",
+  "issuer": "http://blockcerts-rs.innovate.fresnostate.edu/static/2.0/main-issuser-testnet.json",
+  "revokedAssertions": [
+    {
+      "id": "urn:uuid:csu7d784-c03b-42a0-ac10-4857e9627322",
+      "revocationReason": "Issued in error."
+    }
+  ]
+}
