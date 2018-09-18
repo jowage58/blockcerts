@@ -1,0 +1,12 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://raw.githubusercontent.com/jowage58/blockcerts/test/issuers/2.0/main-revocation-list-testnet.json",
+  "type": "RevocationList",
+  "issuer": "https://raw.githubusercontent.com/jowage58/blockcerts/test/issuers/2.0/main-issuser-testnet.json",
+  "revokedAssertions": [
+    {
+      "id": "urn:uuid:csu7d784-c03b-42a0-ac10-4857e9627322",
+      "revocationReason": "Issued in error."
+    }
+  ]
+}
