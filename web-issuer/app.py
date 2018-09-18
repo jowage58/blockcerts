@@ -9,7 +9,7 @@ def log_request_info():
     app.logger.debug('Body: %s', request.get_data())
 
 
-@app.route("/intro")
+@app.route("/intro", methods=['GET', 'POST'])
 def intro():
     return Response("ok", mimetype="text/text")
 
