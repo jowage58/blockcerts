@@ -7,11 +7,11 @@
   "id": "https://raw.githubusercontent.com/jowage58/blockcerts/test/issuers/2.0/main-issuser-testnet.json",
   "name": "California State University, Fresno Test",
   "url": "https://www.issuer.org",
-  "introductionURL": "https://www.issuer.org/intro/",
+  "introductionURL": "http://blockcerts-rs.innovate.fresnostate.edu/intro/",
   "publicKey": [
     {
-      "id": "ecdsa-koblitz-pubkey:mqUGZVmZ9Ts2M1dwBQrzZt1YQUciZ4bKwf",
-      "created": "2018-07-18T14:48:03.814936+00:00"
+      "id": "ecdsa-koblitz-pubkey:mpfDY7vegbo3U6jrgoAj2a8CfBu3u54Zv4",
+      "created": "2018-09-18T08:32:03.814936+00:00"
     }
   ],
   "revocationList": "https://raw.githubusercontent.com/jowage58/blockcerts/test/issuers/2.0/main-revocation-list-testnet.json",
