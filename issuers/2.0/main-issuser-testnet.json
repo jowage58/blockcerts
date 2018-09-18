@@ -11,7 +11,7 @@
   "publicKey": [
     {
       "id": "ecdsa-koblitz-pubkey:mpfDY7vegbo3U6jrgoAj2a8CfBu3u54Zv4",
-      "created": "2018-09-18T08:32:03.814936+00:00"
+      "created": "2018-09-01T08:32:02.814936+00:00"
     }
   ],
   "revocationList": "https://raw.githubusercontent.com/jowage58/blockcerts/test/issuers/2.0/main-revocation-list-testnet.json",
