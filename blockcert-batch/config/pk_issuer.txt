@@ -1,0 +1,1 @@
+<private key for bitcoin issuing_address>
