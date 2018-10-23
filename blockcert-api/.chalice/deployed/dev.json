@@ -1,17 +1,5 @@
 {
-  "resources": [
-    {
-      "name": "api_handler",
-      "resource_type": "lambda_function",
-      "lambda_arn": "arn:aws:lambda:us-west-2:306971764375:function:blockcert-api-dev"
-    },
-    {
-      "name": "rest_api",
-      "resource_type": "rest_api",
-      "rest_api_id": "qzq2po18t5",
-      "rest_api_url": "https://qzq2po18t5.execute-api.us-west-2.amazonaws.com/api/"
-    }
-  ],
+  "resources": [],
   "schema_version": "2.0",
   "backend": "api"
 }
