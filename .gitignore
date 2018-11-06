@@ -5,3 +5,4 @@ blockcert-api/.chalice/deployments/
 blockcert-api/.chalice/venv/
 blockcert-api/.idea/
 blockcert-api/__pycache__/
+blockcert-batch/venv

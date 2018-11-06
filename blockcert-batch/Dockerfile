@@ -25,6 +25,9 @@ RUN apk add --update \
     && pip3 install awscli \
     && pip3 install cert-issuer \
     && rm -rf /var/cache/apk/* \
-    && rm -rf /root/.cache
+    && rm -rf /root/.cache \
+    && chown -R nobody:nobody /var/blockcerts
+
+USER nobody
 
 ENTRYPOINT ["/var/blockcerts/bc-batch-entrypoint.sh"]
