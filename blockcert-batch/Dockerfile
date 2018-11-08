@@ -26,7 +26,8 @@ RUN apk add --update \
     && pip3 install cert-issuer \
     && rm -rf /var/cache/apk/* \
     && rm -rf /root/.cache \
-    && chown -R nobody:nobody /var/blockcerts
+    && chown -R nobody:nobody /var/blockcerts \
+    && chmod 755 /var/blockcerts/bc-batch-entrypoint.sh
 
 USER nobody
 
